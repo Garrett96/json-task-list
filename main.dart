@@ -45,7 +45,6 @@ void loadTasks() {
     var jsonString = file.readAsStringSync();
     tasks = jsonDecode(jsonString);
   } catch (e) {
-    // type safety
   }
 }
 
